@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.framework = 'AVFoundation', 'UIKit', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'CoreTelephony', 'CoreText', 'CoreMedia', 'ImageIO', 'CoreMotion', 'AudioToolbox', 'Photos', 'AssetsLibrary'
     s.libraries = 'c++', 'z','sqlite3.0','xml2'
     s.resource  = '**/Resources/QYResource.bundle'
-    s.dependency 'NIMSDK_LITE', '~> 7.6.0'
+    s.dependency 'NIMSDK_LITE'
 
     s.requires_arc = true
 
